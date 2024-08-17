@@ -1,0 +1,552 @@
+@media only screen and (min-width:621px) and (max-width:821px){
+    .home-section{
+        height: 100vh;
+        width: 100%;
+    }
+    .background-img{
+        /* height: 100vh;/ */
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-image: url('responsive.jpg');
+        z-index: 11111;
+        animation: none;
+    }
+    .home-text h1{
+        font-size: 60px;
+        color:white;
+    }
+    .home-text h3{
+        font-size: 30px;
+        color: white;
+    }
+    .home-text button{
+        padding: 20px 40px;
+        font-size: 30px;
+    }
+    .background-img::before{
+        background-color: rgba(0, 0, 0, 0.422);
+    }
+    .about-section{
+        height: 100vh;
+        width: 100%;
+    }
+    .about-container{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .about-card{
+        height: 300px;
+        width: 80%;
+    }
+    .about-text{
+        height:auto;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .about-text span{
+        font-size: 25px;
+    }
+    .about-text p{
+        font-size: 50px;
+    }
+    .about-p{
+        height: 300px;
+        width: 90%;
+        align-items: center;
+        text-align: center;
+    }
+    .about-p p{
+        font-size: 30px;
+    }
+    .about-p button{
+        padding: 30px 60px;
+        font-size: 25px;
+        border-radius: 20px;
+    }
+    /* .card-section  */
+    .card-section{
+        height: 100vh;
+        width: 100%;
+        justify-content:space-around;
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+    }
+    .card{
+        height: 200px;
+        background-size: cover;
+        justify-content: space-around;
+        width: 70%;
+        flex-direction: column;
+        gap: 0;
+        background-size: cover;
+        background-position: center;
+    }
+    .card h2{
+        font-size: 30px;
+    }
+    .card h4{
+        font-size: 20px;
+    }
+
+
+    .advantages-container {
+        margin-top: 20px;
+        width: 85%;
+        /* height: 100vh; */
+
+        height: auto;
+    }
+    .advantages-top h3{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .advantages-top h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .advantages-down {
+        flex-direction: row;
+        gap: 15px;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: auto;
+    }
+
+    .advantages-card {
+        width: 450px;
+        height: 280px;
+        height: 100%;
+        margin-top: 5px;
+    }
+
+    .advantages-card img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .advantages-card h3 {
+        font-size: 25px;
+    }
+
+    .advantages-card p {
+        font-size: 18px;
+    }
+
+    .video-section {
+        height: 100vh;
+        width: 100%;
+        background-image: url('videobk.avif');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px; 
+        position: relative;
+    }
+    .video-section::before{
+        content: '';
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(8, 8, 8, 0.256);
+        
+    }
+
+    .video-text {
+        height: 70%; 
+        width: 90%; 
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-around;
+    }
+
+    .video-text h3 {
+        color:white;
+        font-weight: 500;
+        font-size: 30px; 
+        z-index: 1;
+    }
+
+    .video-text h2 {
+        z-index: 1;
+        font-size: 40px; 
+        color: white;
+        font-weight: 550;
+    }
+
+    .video-text p {
+        z-index: 1;
+        color: white(20, 20, 20);
+        font-weight: 500;
+        font-size: 30px; 
+    }
+
+    .video-text button {
+        z-index: 1;
+        background-color: white;
+        color: #34363f;
+        padding: 20px 40px; 
+        border-radius: 20px;
+        border: none;
+        font-size: 22px; 
+        font-weight: 500;
+    }
+
+    .video-text button:hover {
+        background-color: goldenrod;
+        color: white;
+    }
+
+
+
+    .logo-section{
+        width: 100%;
+        height: 50vh;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .logo-section a{
+        text-align: center;
+        width: 50%;
+        font-size: 40px;
+    }
+    .review-section{
+        height:100vh;
+        padding: 20px 0;
+        width: 100%;
+        gap: 20px;
+    }
+    .review-section h3{
+        font-size: 25px;
+    }
+    .review-section h2{
+        font-size: 40px;
+    }
+    .review-card-container{
+        width: 100%;
+        height: 60vh;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .review-card{
+        height: 40vh;
+        width: 70%;
+    }
+    .review-card i{
+        font-size: 40px;
+    }
+    .review-card p{
+        font-size:25px;
+    }
+    .review-card span{
+        height: 100px;
+        font-size: 20px;
+    }
+    .review-card img{
+        height: 80px;
+        width: 80px;
+    }
+
+
+    .number-section{
+        height: 160px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+    }
+    .number-section span{
+        width: 20%;
+        padding: 0;
+        align-items: center;
+        font-size: 20px;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .number-section span p
+    {
+        text-align: center;
+        font-size: 50px;
+    }
+    .footer-section{
+        /* padding: 100px; */
+        height: 100vh;
+        background-image:url('r.jpg');
+    }
+    .footer-section h3{
+        font-size: 30px;
+    }
+    .footer-section h2{
+        font-size: 50px;
+        font-weight: 400;
+    }
+    .footer-section button{
+        padding: 20px 50px;
+        font-size: 25px;
+    }
+
+ 
+
+}
+@media only screen and (max-width:620px){
+    .home-section{
+        height: 100vh;
+        width: 100%;
+    }
+    .background-img{
+        /* height: 100vh;/ */
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-image: url('responsive.jpg');
+        z-index: 11111;
+        animation: none;
+    }
+    .home-text h1{
+        font-size: 30px;
+        color:white;
+    }
+    .home-text h3{
+        font-size: 15px;
+        color: white;
+    }
+    .home-text button{
+        padding: 10px 12px;
+        font-size: 15px;
+    }
+    .background-img::before{
+        background-color: rgba(0, 0, 0, 0.422);
+    }
+    .about-section{
+        height: 100vh;
+        width: 100%;
+    }
+    .about-container{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .about-card{
+        height: 200px;
+        width: 80%;
+    }
+    .about-text{
+        height: auto;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .about-p{
+        height: auto;
+        width: 90%;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* card-section */
+    .card-section{
+        height: 100vh;
+        width: 100%;
+        justify-content:space-around;
+        flex-direction: column;
+        gap: 0;
+        padding: 0;
+    }
+    .card{
+        height: 170px;
+        background-size: cover;
+        justify-content: space-around;
+        width: 80%;
+        flex-direction: column;
+        gap: 0;
+    }
+    .card h2{
+        font-size: 20px;
+    }
+    .card h4{
+        font-size: 10px;
+    }
+.advantages-section{
+    height: auto;
+    width: 100%;
+}
+
+    .advantages-container {
+        margin-top: 10px;
+        width:100%;
+        height: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .advantages-top{
+        height: auto;
+        width: auto;
+        margin-top: 10px;
+    }
+    .advantages-top h3{
+        margin-top: 20px;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .advantages-top h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .advantages-down {
+        height: auto;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advantages-card {
+        width: 300px;
+        height: 150px;
+        gap: 5px;
+    }
+
+    .advantages-card img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .advantages-card h3 {
+       font-size: 17px;
+    }
+
+    .advantages-card p {
+        font-size: 14px;
+    }
+
+
+    .video-section {
+        height: 100vh;
+        width: 100%;
+        background-image: url('videobk.avif');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px; 
+    }
+
+    .video-text {
+        height: 70%; 
+        width: 90%; 
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        /* justify-content:safe; */
+        /* gap: 40px; */
+    }
+
+    .video-text h3 {
+        color:black;
+        font-weight: 500;
+        font-size: 20px; 
+    }
+
+    .video-text h2 {
+        font-size: 25px; 
+        color: black;
+        font-weight: 550;
+    }
+
+    .video-text p {
+        color: rgb(20, 20, 20);
+        font-weight: 500;
+        font-size: 15px; 
+    }
+
+    .video-text button {
+        background-color: white;
+        color: #34363f;
+        padding: 10px 20px; 
+        border-radius: 20px;
+        border: none;
+        font-size: 15px; 
+        font-weight: 500;
+    }
+
+    .video-text button:hover {
+        background-color: goldenrod;
+        color: white;
+    }
+
+
+    .logo-section{
+        height: 50vh;
+        flex-direction: column;
+    }
+
+    .review-section{
+        height:auto;
+        padding: 20px 0;
+        width: 100%;
+        gap: 10px;
+    }
+    .review-card-container{
+        width: 100%;
+        height: 60vh;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .review-card{
+        height: 40vh;
+        width: 90%;
+    }
+
+    .number-section{
+        height: 160px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+    }
+    .number-section span{
+        width: 20%;
+        padding: 0;
+        align-items: start;
+        font-size: 12px;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .number-section span p
+    {
+        text-align: center;
+        font-size: 30px;
+    }
+    .footer-section{
+        /* padding: 100px; */
+        height: 100vh;
+        background-image:url('r.jpg');
+    }
+    .footer-section h2{
+        font-size: 30px;
+        font-weight: 400;
+    }
+}
+
